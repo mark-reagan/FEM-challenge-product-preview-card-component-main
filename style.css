@@ -115,7 +115,7 @@ body {
 	/* for this project only */
 	display: grid;
 	grid-template-rows: 1fr auto;
-	margin-inline: 1rem;
+	padding: 1rem;
 }
 
 .main-content {
