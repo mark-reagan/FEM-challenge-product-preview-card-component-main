@@ -115,7 +115,7 @@ body {
 	/* for this project only */
 	display: grid;
 	grid-template-rows: 1fr auto;
-	margin: 1rem;
+	margin-inline: 1rem;
 }
 
 .main-content {
@@ -125,6 +125,7 @@ body {
 
 .attribution {
 	text-align: center;
+	padding: .75rem 1rem;
 }
 
 /* utilities */
