@@ -21,8 +21,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/mark-reagan/FEM-challenge-product-preview-card-component-main)
-- Live Site URL: [Add live site URL here](tourmaline-pasca-bb4d75.netlify.app)
+- Solution URL: [github.com/mark-reagan/FEM-challenge-product-preview-card-component-main](https://github.com/mark-reagan/FEM-challenge-product-preview-card-component-main)
+- Live Site URL: [tourmaline-pasca-bb4d75.netlify.app](https://tourmaline-pasca-bb4d75.netlify.app/)
 
 ## My process
 
