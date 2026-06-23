@@ -48,7 +48,7 @@
 
 body {
 	/* 4. Increase line-height */
-	line-height: 1.5;
+	line-height: 1.7;
 	/* 5. Improve text rendering */
 	-webkit-font-smoothing: antialiased;
 }
@@ -86,6 +86,10 @@ h6 {
 	overflow-wrap: break-word;
 }
 
+h1, h2, h3 {
+	line-height: 1;
+}
+
 /* 9. Improve line wrapping */
 p {
 	text-wrap: pretty;
@@ -118,9 +122,40 @@ body {
  display: flex;
  gap: 1rem;
  flex-wrap: wrap;
+ align-items: center;
 }
 
 /* product styles */
 .product {
+	--content-padding: 1.5rem;
+	--content-spacing: 1rem;
 
+	background-color: var(--clr-neutral-100);
+	border-radius: 0.5rem ;
+	overflow: hidden;
+}
+
+.product__content {
+	padding: var(--content-padding);
+	display: grid;
+	gap: var(--content-spacing);
+}
+
+.product__category {
+	font-size: .8125rem;
+	text-transform: uppercase;
+	letter-spacing: 6px;
+}
+
+.product__title {
+	font-size: 2rem;
+	font-family: var(--ff-accent);
+	color: var(--clr-neutral-900);
+}
+
+.product__price {
+	font-size: 2rem;
+	font-family: var(--ff-accent);
+	font-weight: var(--fw-bold);
+	color: var(--clr-primary-400);
 }
