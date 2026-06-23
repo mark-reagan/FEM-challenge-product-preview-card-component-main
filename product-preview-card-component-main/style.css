@@ -114,8 +114,17 @@ body {
 
 	/* for this project only */
 	display: grid;
-	place-content: center;
+	grid-template-rows: 1fr auto;
 	margin: 1rem;
+}
+
+.main-content {
+	display: grid;
+	place-content: center;
+}
+
+.attribution {
+	text-align: center;
 }
 
 /* utilities */
